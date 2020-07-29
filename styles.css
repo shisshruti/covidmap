@@ -1,0 +1,67 @@
+body
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin: 10px;
+  padding: 0px;
+  background-color: black;
+
+}
+
+.title
+{
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 2.5px;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px mediumblue;
+}
+
+.black
+{
+    font-family: 'Raleway', sans-serif;
+    color: aliceblue;
+    width: 100%;
+    font-weight: 600;
+}
+
+.top, .bottom
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    width: 80%;
+    align-items: baseline;
+
+    font-family: 'Raleway', sans-serif;
+}
+
+.data
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 0px;
+}
+
+.up
+{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: -5px;
+    letter-spacing: 2.5px;
+    color: 	white;
+}
+
+.down
+{
+    font-size: 15px;
+    color: 	aliceblue;
+}
